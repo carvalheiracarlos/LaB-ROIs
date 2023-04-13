@@ -1,0 +1,11 @@
+{
+  "exp": {
+    "name": "rois_scikit_maad"
+  },
+  "location": {
+    "root": "./data/",
+    "audios": "./data/input/audios/",
+    "images": "./data/output/images",
+    "tables": "./data/output/tables"
+  }
+}
