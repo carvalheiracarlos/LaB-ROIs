@@ -2,6 +2,12 @@
   "exp": {
     "name": "rois_scikit_maad"
   },
+  "google":{
+    "repository":{
+      "folder":{
+      }
+    }
+  },
   "location": {
     "root": "./data/",
     "audios": "./data/input/audios/",

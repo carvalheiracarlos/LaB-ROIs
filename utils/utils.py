@@ -10,13 +10,13 @@ def get_args():
         default='None',
         help='The Configuration file'
     )
-    argparser.add_argument(
-        '-d', '--debbug',
-        help='Print Functions',
-        action='store_true'
+    argparse.add_argument(
+        '-d', '--driveDownload',
+        help='Download Data from Gogle Drive',
+        action='sotre_true'
     )
     argparser.add_argument(
-        '-k', '--preProcess',
+        '-p', '--preProcess',
         help='Pre Process Audio Files',
         action='store_true'
     )
