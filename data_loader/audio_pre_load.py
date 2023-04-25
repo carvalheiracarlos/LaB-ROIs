@@ -1,3 +1,4 @@
+from decouple import config
 import gdown
 
 from base.base_data_loader import BaseDataLoader
@@ -10,4 +11,4 @@ class AudioPreLoad(BaseDataLoader):
 
 
     def download_data_from_google(self):
-        gdown.download_folder(self.config.google.repository.folder, quiet=False, use_cookies=False)
+        gdown.download_folder(config('GOOGLE_DRIVE', default=''), quiet=False, use_cookies=False)
