@@ -10,6 +10,7 @@ def main():
     print('Create the data generator.')
     data_loader = AudioPreLoad(config)
     
+    '''
     if args.driveDownload:
         data_loader.download_data_from_google()
 
@@ -18,6 +19,7 @@ def main():
         print('Pre-Process Code')
         exit(0)
     
+    '''
 
 if __name__ == '__main__':
     main()
