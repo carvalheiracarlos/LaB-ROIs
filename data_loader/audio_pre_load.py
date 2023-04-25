@@ -11,4 +11,8 @@ class AudioPreLoad(BaseDataLoader):
 
 
     def download_data_from_google(self):
-        gdown.download_folder(config('GOOGLE_DRIVE', default=''), quiet=False, use_cookies=False)
+        gdown.download_folder(url=config('GOOGLE_DRIVE', default=''), 
+                              output=self.config.location.audios,
+                              quiet=False, 
+                              use_cookies=False
+                              )
