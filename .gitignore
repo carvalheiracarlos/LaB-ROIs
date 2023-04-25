@@ -131,4 +131,4 @@ dmypy.json
 
 # datafolders
 
-data/
+data/input/
